@@ -1,0 +1,12 @@
+.container {
+          margin: 3rem 3rem 3rem 3rem;
+          cursor: pointer;
+}
+
+#searchbox {
+          width: 200px;
+          height: 37px;
+          border-radius: 5px;
+          padding-left: 10px;
+          font-size: 23px;
+}
