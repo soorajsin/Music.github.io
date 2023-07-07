@@ -109,6 +109,14 @@
           }
 }
 
+
+@media screen and (max-width: 396px) {
+          .container .navbar a img {
+                    width: 30px;
+                    height: 30px;
+          }
+}
+
 .container img {
           margin-left: 10px;
           width: 70px;
