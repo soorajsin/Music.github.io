@@ -115,6 +115,21 @@
                     width: 30px;
                     height: 30px;
           }
+
+          .container .navbar .searchboxSubmit .input {
+                    /* margin-top: -2.5rem;
+                    margin-left: 4rem; */
+                    margin-left: 3rem;
+                    margin-right: 2rem;
+                    margin-top: -2rem;
+          }
+
+          .container .navbar .searchboxSubmit .button {
+                    margin-top: 2rem;
+                    position: relative;
+                    right: 10rem;
+                    bottom: 1rem;
+          }
 }
 
 
