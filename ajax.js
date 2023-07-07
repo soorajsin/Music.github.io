@@ -1,6 +1,6 @@
 function doAjax() {
           const searchVal = document.getElementById('searchbox').value;
-          const URL = `https://itunes.apple.com/search?term=${searchVal}&limit=5`;
+          const URL = `https://itunes.apple.com/search?term=${searchVal}&limit=14`;
           const promise = fetch(URL);
           promise.then(response => {
                     response.json().then(data => {
