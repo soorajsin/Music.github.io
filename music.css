@@ -11,26 +11,29 @@
           margin-bottom: 3px;
 }
 
+.container .navbar .searchboxSubmit {
+          display: flex;
+          justify-content: center;
+          margin-right: 330px;
+}
+
+@media screen and (mix-width:991) {
+          .container .navbar {
+                    display: flex;
+          }
+
+          .container .navbar .searchboxSubmit {}
+}
+
 .container img {
           margin-left: 10px;
           width: 70px;
           height: 70px;
 }
 
-.container .input {
-          margin-left: 400px;
-          margin-bottom: 15px;
-          cursor: pointer;
-}
-
-.container .button {
-          margin-right: 500px;
-          margin-bottom: 15px;
-}
-
 .container .input #searchbox {
-          width: 200px;
-          height: 37px;
+          width: 250px;
+          height: 38px;
           border-radius: 5px;
           padding-left: 10px;
           font-size: 23px;
