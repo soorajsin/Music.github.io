@@ -117,6 +117,27 @@
           }
 }
 
+
+@media screen and (max-width: 358px) {
+          .container .navbar a img {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 10px;
+          }
+
+          .container .navbar .searchboxSubmit .input {
+                    margin-left: 60px;
+                    margin-top: -2rem;
+          }
+
+          .container .navbar .searchboxSubmit .button {
+                    margin-top: 2rem;
+                    position: relative;
+                    right: 10rem;
+                    bottom: 1rem;
+          }
+}
+
 .container img {
           margin-left: 10px;
           width: 70px;
