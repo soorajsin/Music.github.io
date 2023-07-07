@@ -78,11 +78,11 @@
           .container .navbar .searchboxSubmit {
                     display: flex;
                     justify-content: center;
-                    margin-right: 0.5rem;
+                    margin-right: 1rem;
           }
 }
 
-@media screen and (max-width: 416px) {
+@media screen and (max-width: 422px) {
           .container .navbar a img {
                     width: 30px;
                     height: 30px;
@@ -109,86 +109,6 @@
           }
 }
 
-
-@media screen and (max-width: 399px) {
-          .container .navbar a img {
-                    width: 30px;
-                    height: 30px;
-          }
-
-          .container .navbar .searchboxSubmit .input {
-                    /* margin-top: -2.5rem;
-                    margin-left: 4rem; */
-                    margin-left: 3rem;
-                    margin-right: 2rem;
-                    margin-top: -2rem;
-          }
-
-          .container .navbar .searchboxSubmit .button {
-                    margin-top: 2rem;
-                    position: relative;
-                    right: 10rem;
-                    bottom: 1rem;
-          }
-}
-
-
-@media screen and (max-width: 358px) {
-          .container .navbar a img {
-                    width: 30px;
-                    height: 30px;
-                    margin-left: 10px;
-          }
-
-          .container .navbar .searchboxSubmit .input {
-                    margin-left: 3rem;
-                    margin-right: 2rem;
-                    margin-top: -2rem;
-          }
-
-          .container .navbar .searchboxSubmit .button {
-                    margin-top: 2rem;
-                    position: relative;
-                    right: 10rem;
-                    bottom: 1rem;
-          }
-}
-
-@media screen and (max-width: 295px) {
-          .container .navbar a img {
-                    width: 30px;
-                    height: 30px;
-                    margin-left: 3px;
-          }
-
-
-          .container .navbar .searchboxSubmit .input {
-                    margin-left: 2.1rem;
-                    margin-top: -2rem;
-          }
-
-          .container .navbar .searchboxSubmit .button {
-                    margin-top: 2rem;
-                    position: relative;
-                    right: 10rem;
-                    bottom: 1rem;
-          }
-}
-
-@media screen and (max-width: 280px) {
-          .container .navbar a img {
-                    display: none;
-          }
-
-          .container .navbar .searchboxSubmit .input {
-                    margin-top: 1px;
-                    margin-left: 4px;
-          }
-
-          .container .navbar .searchboxSubmit .button {
-                    margin-top: 4rem;
-          }
-}
 
 .container img {
           margin-left: 10px;
