@@ -17,12 +17,96 @@
           margin-right: 330px;
 }
 
-@media screen and (mix-width:991) {
+@media screen and (max-width: 991px) {
           .container .navbar {
                     display: flex;
           }
 
-          .container .navbar .searchboxSubmit {}
+          .container .navbar .searchboxSubmit {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 11rem;
+          }
+}
+
+@media screen and (max-width: 767px) {
+          .container .navbar {
+                    display: flex;
+          }
+
+          .container .navbar .searchboxSubmit {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 3rem;
+          }
+}
+
+@media screen and (max-width: 547px) {
+          .container .navbar {
+                    display: flex;
+          }
+
+          .container .navbar .searchboxSubmit {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 1rem;
+          }
+}
+
+@media screen and (max-width: 479px) {
+          .container .navbar {
+                    display: flex;
+          }
+
+          .container .navbar .searchboxSubmit {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 0.3rem;
+          }
+
+          .container .navbar .searchboxSubmit .input #searchbox {
+                    width: 222px;
+          }
+}
+
+@media screen and (max-width: 442px) {
+          .container .navbar a img {
+                    width: 40px;
+                    height: 40px;
+          }
+
+          .container .navbar .searchboxSubmit {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 0.5rem;
+          }
+}
+
+@media screen and (max-width: 416px) {
+          .container .navbar a img {
+                    width: 30px;
+                    height: 30px;
+                    margin-left: 3px;
+          }
+
+          .container .navbar .searchboxSubmit {
+                    display: flex;
+                    justify-content: center;
+                    margin-right: 0.5rem;
+          }
+
+          .container .navbar .input #searchbox {
+                    width: 250px;
+                    height: 34px;
+                    border-radius: 5px;
+                    padding-left: 10px;
+                    font-size: 23px;
+          }
+
+          .container .navbar .searchboxSubmit .button button {
+                    width: 110px;
+                    height: 34px;
+          }
 }
 
 .container img {
