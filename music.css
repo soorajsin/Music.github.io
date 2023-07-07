@@ -160,6 +160,21 @@
           }
 }
 
+@media screen and (max-width: 280px) {
+          .container .navbar a img {
+                    display: none;
+          }
+
+          .container .navbar .searchboxSubmit .input {
+                    margin-top: 1px;
+                    margin-left: 4px;
+          }
+
+          .container .navbar .searchboxSubmit .button {
+                    margin-top: 4rem;
+          }
+}
+
 .container img {
           margin-left: 10px;
           width: 70px;
