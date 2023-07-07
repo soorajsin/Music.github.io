@@ -17,6 +17,12 @@
           margin-right: 330px;
 }
 
+.container .navbar .searchboxSubmit .button .btn-primary {
+          font-size: 25px;
+          height: 39px;
+          padding-top: 0px;
+}
+
 @media screen and (max-width: 991px) {
           .container .navbar {
                     display: flex;
@@ -126,7 +132,7 @@
                     position: relative;
                     right: 10rem;
                     bottom: 1rem;
-                    width:180px;
+                    width: 180px;
           }
 }
 
