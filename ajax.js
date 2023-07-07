@@ -1,3 +1,12 @@
+// ====================loading page
+var preloader = document.getElementById('loading');
+
+function myLoadingpage() {
+          preloader.style.display = 'none';
+}
+
+
+
 function doAjax() {
           const searchVal = document.getElementById('searchbox').value;
           const URL = `https://itunes.apple.com/search?term=${searchVal}&limit=14`;
